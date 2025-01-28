@@ -19,18 +19,19 @@
 
     }
  h1 {
-    color: navy;
+    color: rgb(255, 2, 2);
     font-family: 'SeafordBold';
     text-align: center;
   }
 
   h2 {
     font-family: SeafordRg;
-    color: navy;
+    color: rgb(255, 0, 0);
+    text-align: left;
 }
 
   p.myP{
-    color: brown;
+    color: rgb(255, 0, 0);
     text-align: justify;
    text-justify: inter-word;
   }
@@ -40,7 +41,7 @@
     color: black;
   }
 
-  p.myP:hover{background-color: #ddd;}
+  p.myP:hover{background-color: #dddddd;}
 
 
  body {
@@ -82,20 +83,20 @@ ol li {
   }
   
   #mytable td, #mytable th {
-    border: 1px solid #ddd;
+    border: 1px solid #050505;
     padding: 8px;
   }
   
-  #mytable tr:nth-child(even){background-color: #f2f2f2;}
+  #mytable tr:nth-child(even){background-color: #b2b2b2;}
   
-  #mytable tr:hover {background-color: #ddd;}
+  #mytable tr:hover {background-color: #b2b2b2;}
   
   #mytable th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: grey;
-    color: white;
+    background-color: rgb(255, 0, 0);
+    color: rgb(184, 184, 184);
   }
 
   label { display: inline-block; width: 100px; text-align: right; }
