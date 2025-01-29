@@ -1,6 +1,4 @@
-  
- 
-  @font-face { 
+@font-face { 
     font-family: SeafordBold; 
     src: url(./font/SeafordBold.ttf); 
     font-weight: normal; 
@@ -86,16 +84,16 @@ ol li {
     padding: 8px;
   }
   
-  #mytable tr:nth-child(even){background-color: #b2b2b2;}
+  #mytable tr:nth-child(even){background-color: #ffffff;}
   
-  #mytable tr:hover {background-color: #b2b2b2;}
+  #mytable tr:hover {background-color: #ff0000;}
   
   #mytable th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
     background-color: rgb(255, 0, 0);
-    color: rgb(184, 184, 184);
+    color: rgb(157, 157, 157);
   }
 
   label { display: inline-block; width: 100px; text-align: right; }
@@ -104,4 +102,7 @@ ol li {
   height: 140px;
   width: 150px;
   border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
  }
